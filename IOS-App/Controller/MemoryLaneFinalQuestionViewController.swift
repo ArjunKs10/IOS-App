@@ -15,12 +15,11 @@ class MemoryLaneFinalQuestionViewController: UIViewController, UITextViewDelegat
         super.viewDidLoad()
         setupUI()
         setupPlaceholder()
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
 
-        progressView.setProgress(1.0, animated: true)
+
+        progressView.progress = MemorySessionManager.shared.currentProgress()
     }
+
     private func setupUI() {
 
         if let img = groupImageData {
@@ -51,7 +50,6 @@ class MemoryLaneFinalQuestionViewController: UIViewController, UITextViewDelegat
         responseTextView.resignFirstResponder()
     }
 
-
     func textViewDidBeginEditing(_ textView: UITextView) {
         if textView.textColor == .lightGray {
             textView.text = ""
@@ -77,7 +75,7 @@ class MemoryLaneFinalQuestionViewController: UIViewController, UITextViewDelegat
         MemorySessionManager.shared.finishImageSession(
             overallReflection: finalText
         )
-
+        
         goToCompletionScreen()
     }
 

@@ -33,7 +33,7 @@ class MemoryLanePersonOverviewViewController: UIViewController {
             // Cell item
             let itemSize = NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .estimated(260)   
+                heightDimension: .estimated(260)
             )
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
 
