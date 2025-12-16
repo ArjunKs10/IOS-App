@@ -66,7 +66,7 @@ class MemoryLaneEmotionMcqViewController: UIViewController {
     }
 
     private func goToFinalQuestion() {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "MemoryLane", bundle: nil)
 
         if let finalVC = sb.instantiateViewController(
             withIdentifier: "MemoryLaneFinalQuestion"

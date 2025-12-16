@@ -128,7 +128,7 @@ class MemoryLaneidentifyPersonViewController: UIViewController {
             relation: relation
         )
 
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "MemoryLane", bundle: nil)
         if let nextVC =
             sb.instantiateViewController(
                 withIdentifier: "TextQuestion"

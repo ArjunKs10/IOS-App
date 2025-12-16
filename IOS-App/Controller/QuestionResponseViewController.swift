@@ -84,7 +84,7 @@ class QuestionResponseViewController: UIViewController, UITextViewDelegate {
     }
 
     private func goToMCQScreen() {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "MemoryLane", bundle: nil)
 
         if let mcqVC =
             sb.instantiateViewController(withIdentifier: "mcqVC")

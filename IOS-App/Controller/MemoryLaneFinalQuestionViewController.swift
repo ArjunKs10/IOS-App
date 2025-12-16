@@ -80,7 +80,7 @@ class MemoryLaneFinalQuestionViewController: UIViewController, UITextViewDelegat
     }
 
     private func goToCompletionScreen() {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "MemoryLane", bundle: nil)
         let vc = sb.instantiateViewController(
             withIdentifier: "ActivityOverviewVC"
         )

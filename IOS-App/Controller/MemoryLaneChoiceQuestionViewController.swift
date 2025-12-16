@@ -92,7 +92,7 @@ class MemoryLaneChoiceQuestionViewController: UIViewController {
     }
 
     private func goToEmotionScreen() {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "MemoryLane", bundle: nil)
 
         if let vc =
             sb.instantiateViewController(
