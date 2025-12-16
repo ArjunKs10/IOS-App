@@ -815,7 +815,7 @@
                                         </constraints>
                                         <color key="tintColor" red="0.89708970129999999" green="0.53933650590000004" blue="0.099683095269999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Main" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="Finish" cornerStyle="capsule">
                                             <color key="baseBackgroundColor" red="0.8980392157" green="0.54117647059999996" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>

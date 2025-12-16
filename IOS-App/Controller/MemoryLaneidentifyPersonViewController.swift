@@ -146,7 +146,7 @@ class MemoryLaneidentifyPersonViewController: UIViewController {
 
             navigationController?.pushViewController(
                 nextVC,
-                animated: true
+                animated: false
             )
         }
     }
